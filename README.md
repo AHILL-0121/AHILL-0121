@@ -221,7 +221,7 @@ graph LR
 
 ## 🏆 ACHIEVEMENTS & TROPHIES
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=AHILL-0121&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy-git-master-ryo-ma-s-team.vercel.app/?username=AHILL-0121&theme=dark)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 

@@ -227,10 +227,26 @@ const Ahill = {
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+### 🧾 ProcureAI
+**Next.js · FastAPI · Multi-Agent AI**
+
+🤖 Multi-agent invoice automation  
+🔍 Three-way PO match engine  
+⚡ ~250ms dashboard via query optimization  
+📧 IMAP email intake & OCR extraction  
+
+[![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github)](https://github.com/AHILL-0121/ProcureAI)
+[![Live](https://img.shields.io/badge/Live-00C7B7?style=for-the-badge&logo=vercel)](https://sa-procure-ai.vercel.app/)
+
+</td>
+<td width="50%"></td>
+</tr>
 </table>
 
 </div>
-
 ---
 
 <div align="center">
@@ -355,6 +371,7 @@ graph LR
 
 [![Duolingo Stats](https://duo-widget.vercel.app/api/duo?username=the1anonymous.&theme=deepsea&character=all)](https://www.duolingo.com/profile/the1anonymous.)
 
+[![Leetcode Stats](https://leetapi.vercel.app/api/heatmap.svg?year=2026&theme=dark)](https://leetcode.com/u/ahillselvaraaj/)
 
 
 [![Exercism Stats](https://sa-exercism-api.vercel.app/api/exercism-heatmap.svg?theme=dark)](https://exercism.org/profiles/AHILL-0121)

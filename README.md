@@ -130,88 +130,117 @@ const Ahill = {
 
 </div>
 
-
+---
 
 <div align="center">
 
 ## 🚀 NOTABALE PROJECTS
+
 <table>
 <tr>
 <td width="50%">
+
 ### ⚖️ GitVerdict
 **Next.js · GitHub API · AI Analysis**
+
 🔍 AI-powered GitHub repo analyser  
 📊 Instant code quality verdict  
 🧠 Smart repo insight generation  
 🚀 Zero-config, paste & judge  
+
 [![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github)](https://github.com/AHILL-0121/gitverdict)
 [![Live](https://img.shields.io/badge/Live-00C7B7?style=for-the-badge&logo=vercel)](https://sa-git-verdict.vercel.app/)
+
 </td>
 <td width="50%">
+
 ### 🌳 Fam Tree Builder
 **Next.js · React · Data Visualization**
+
 👨‍👩‍👧‍👦 Interactive family tree builder  
 🌿 Dynamic node-based relationships  
 💾 Save & share your lineage  
 🎨 Clean, intuitive UI  
+
 [![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github)](https://github.com/AHILL-0121/fam-tree)
 [![Live](https://img.shields.io/badge/Live-00C7B7?style=for-the-badge&logo=vercel)](https://sa-fam-tree-builder.vercel.app/)
+
 </td>
 </tr>
 <tr>
 <td width="50%">
+
 ### 💣 Word Bomb
 **Next.js · WebSocket · Real-Time**
+
 💥 Multiplayer word-bombing game  
 ⚡ Real-time WebSocket gameplay  
 🏆 Live score & leaderboard  
 📱 Mobile-ready fast-paced fun  
+
 [![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github)](https://github.com/AHILL-0121/wordbomb)
 [![Live](https://img.shields.io/badge/Live-00C7B7?style=for-the-badge&logo=vercel)](https://sa-word-bomb.vercel.app/)
+
 </td>
 <td width="50%">
+
 ### 🔎 DevLens
 **Next.js · GitHub API · Dev Insights**
+
 🧑‍💻 Deep GitHub profile analyser  
 📈 Contribution & language breakdown  
 🔬 Repo-level code insights  
 ⚡ Instant developer fingerprint  
+
 [![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github)](https://github.com/AHILL-0121/devlens)
 [![Live](https://img.shields.io/badge/Live-00C7B7?style=for-the-badge&logo=vercel)](https://sa-dev-lens.vercel.app/)
+
 </td>
 </tr>
 <tr>
 <td width="50%">
+
 ### 🧩 LeetCode API
 **Go Fiber · REST API · Web Scraping**
+
 📡 Unofficial LeetCode stats API  
 🏅 Fetch any user's solved problems  
 ⚡ Blazing-fast Go Fiber backend  
 🔓 Open & free to use  
+
 [![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github)](https://github.com/AHILL-0121/leet-api)
 [![Live](https://img.shields.io/badge/Live-00C7B7?style=for-the-badge&logo=vercel)](https://leetapi.vercel.app/)
+
 </td>
 <td width="50%">
+
 ### 🏋️ Exercism API
 **Go Fiber · REST API · Learning**
+
 📚 Exercism track & exercise fetcher  
 🔗 Clean REST endpoints  
 ⚡ Go-powered ultra-fast responses  
 🛠️ Dev tool for learning platforms  
+
 [![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github)](https://github.com/AHILL-0121/exercism-api)
 [![Live](https://img.shields.io/badge/Live-00C7B7?style=for-the-badge&logo=vercel)](https://sa-exercismapi.vercel.app/)
+
 </td>
 </tr>
 <tr>
 <td width="50%">
+
 ### 🧾 ProcureAI
 **Next.js · FastAPI · Multi-Agent AI**
+
 🤖 Multi-agent invoice automation  
 🔍 Three-way PO match engine  
 ⚡ ~250ms dashboard via query optimization  
 📧 IMAP email intake & OCR extraction  
+
 [![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github)](https://github.com/AHILL-0121/ProcureAI)
 [![Live](https://img.shields.io/badge/Live-00C7B7?style=for-the-badge&logo=vercel)](https://sa-procure-ai.vercel.app/)
+
 </td>
 <td width="50%">
 
@@ -223,10 +252,14 @@ const Ahill = {
 🏆 Speed & creativity scoring system  
 [![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github)](https://github.com/AHILL-0121/CategoryCrash)
 [![Live](https://img.shields.io/badge/Live-00C7B7?style=for-the-badge&logo=vercel)](https://sa-category-crash.vercel.app/)
+
 </td>
 </tr>
 </table>
+
 </div>
+---
+
 <div align="center">
 
 ## 📊 BATTLE STATISTICS

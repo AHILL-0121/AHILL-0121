@@ -286,8 +286,7 @@ const Ahill = {
 
 ## 🏆 ACHIEVEMENTS & TROPHIES
 
-[![trophy](https://github-profile-trophy-git-master-ryo-ma-s-team.vercel.app/?username=AHILL-0121&theme=dark)](https://github.com/ryo-ma/github-profile-trophy)
-
+![Trophy](./assets/trophy.svg)
 </div>
 
 ---

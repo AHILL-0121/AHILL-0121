@@ -253,6 +253,25 @@ const Ahill = {
 [![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github)](https://github.com/AHILL-0121/CategoryCrash)
 [![Live](https://img.shields.io/badge/Live-00C7B7?style=for-the-badge&logo=vercel)](https://sa-category-crash.vercel.app/)
 
+<tr>
+<td width="50%">
+
+### 🌤️ Weather Dashboard
+**Next.js · Weather API · Real-Time**
+
+🌍 Real-time global weather intelligence  
+🔍 Instant city search & lookup  
+📡 Live data with clean visual display  
+⚡ Fast, minimal, distraction-free  
+
+[![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github)](https://github.com/AHILL-0121/WEATHER-DASHBOARD)
+[![Live](https://img.shields.io/badge/Live-00C7B7?style=for-the-badge&logo=vercel)](https://sa-weather-dashboard.vercel.app/)
+
+</td>
+<td width="50%">
+
+<!-- Next project goes here -->
+
 </td>
 </tr>
 </table>

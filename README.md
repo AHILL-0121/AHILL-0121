@@ -246,13 +246,17 @@ const Ahill = {
 
 ### 🎮 CategoryCrash
 **Next.js · PartyKit · Groq AI**
+
 💥 Real-time multiplayer word game  
 🧠 AI-validated dual-category answers  
 ⚡ Sub-200ms Groq llama-3.3-70b judgement  
 🏆 Speed & creativity scoring system  
+
 [![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github)](https://github.com/AHILL-0121/CategoryCrash)
 [![Live](https://img.shields.io/badge/Live-00C7B7?style=for-the-badge&logo=vercel)](https://sa-category-crash.vercel.app/)
 
+</td>
+</tr>
 <tr>
 <td width="50%">
 
@@ -270,7 +274,16 @@ const Ahill = {
 </td>
 <td width="50%">
 
-<!-- Next project goes here -->
+### 📰 The Silicon Gazette
+**Next.js · Groq · Tavily Search**
+
+🗞️ AI-powered daily tech newspaper  
+🕰️ Vintage broadsheet design system  
+🔍 Live web search + LLM synthesis  
+📅 One cached edition generated per day  
+
+[![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github)](https://github.com/AHILL-0121/The-Silicon-Gazette)
+[![Live](https://img.shields.io/badge/Live-00C7B7?style=for-the-badge&logo=vercel)](https://sa-silicon-gazette.vercel.app/)
 
 </td>
 </tr>

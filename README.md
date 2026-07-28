@@ -287,6 +287,36 @@ const Ahill = {
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+### ⚡ DataPulse
+**Next.js · FastAPI · scikit-learn**
+
+📊 Automated data analysis & insight engine  
+🧹 Auto-cleaning, EDA, and anomaly detection  
+🤖 Auto-selected regression/classification modelling  
+📄 One-click PDF/PPTX report export  
+
+[![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github)](https://github.com/AHILL-0121/DataPulse)
+[![Live](https://img.shields.io/badge/Live-00C7B7?style=for-the-badge&logo=vercel)](https://sa-datapulse.vercel.app/)
+
+</td>
+<td width="50%">
+
+### 🏨 Kipd
+**Next.js 14 · Neon + Drizzle · Capacitor**
+
+🏢 Multi-tenant hotel & restaurant management  
+📱 Native Android shell with remote live-load  
+🍽️ Real-time Kitchen Display System via SSE  
+💳 Custom UPI native payment scraping  
+
+[![Repo](https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github)](https://github.com/AHILL-0121/KIPD)
+[![Live](https://img.shields.io/badge/Live-00C7B7?style=for-the-badge&logo=vercel)](https://sa-kipd.vercel.app/)
+
+</td>
+</tr>
 </table>
 
 </div>

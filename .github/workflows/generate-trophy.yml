@@ -1,28 +1,24 @@
 name: Generate GitHub Trophy SVG
-
 on:
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * 0" # Every Sunday at midnight UTC
-
 permissions:
   contents: write
-
 jobs:
   generate-trophy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
       - name: Generate trophy
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           username: AHILL-0121
           file: assets/trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Commit and push trophy SVG
         run: |
           git config --global user.name "github-actions[bot]"

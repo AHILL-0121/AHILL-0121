@@ -23,9 +23,9 @@
 <div align="center">
 
 ```
-                                       ╔═══════════════════════════════════════════════════════╗
-                                       ║   💻 CODE  •  🤖 AI  •  🔐 SECURITY  •  📊 DATA     ║
-                                       ╚═══════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════╗
+║   💻 CODE  •  🤖 AI  •  🔐 SECURITY  •  📊 DATA     ║
+╚═══════════════════════════════════════════════════════╝
 ```
 
 </div>
@@ -320,7 +320,7 @@ const Ahill = {
 </table>
 
 </div>
----
+
 
 <div align="center">
 
@@ -347,7 +347,6 @@ const Ahill = {
 <div align="center">
 
 ## 🏆 ACHIEVEMENTS & TROPHIES
-
 ![Trophy](./assets/trophy.svg)
 </div>
 

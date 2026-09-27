@@ -19,14 +19,9 @@ jobs:
         with:
           username: AHILL-0121
           file: assets/trophy.svg
-<<<<<<< HEAD
           token: ${{ secrets.PAT_TOKEN }}
-
-=======
-          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Recolor trophy to the Matrix palette
         run: python3 .github/scripts/recolor_trophy.py
->>>>>>> 43e8de7 (Redesign profile README with Matrix theme: animated SVG header, project cards, stack and telemetry panels, plus daily stats workflow)
       - name: Commit and push trophy SVG
         run: |
           mkdir -p assets

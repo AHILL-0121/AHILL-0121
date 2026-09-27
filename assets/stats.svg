@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-label="GitHub telemetry for AHILL-0121">
+<style>.n{opacity:0;animation:up .6s ease forwards}@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}.bar{transform-box:fill-box;transform-origin:left;transform:scaleX(0);animation:grow 1.2s cubic-bezier(.2,.8,.2,1) forwards}@keyframes grow{to{transform:scaleX(1)}}.cur{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}@media (prefers-reduced-motion:reduce){*{animation:none!important}.n{opacity:1}.bar{transform:none}}</style>
+<rect x=".5" y=".5" width="999" height="249" rx="6" fill="#080C0B" stroke="#1E2925"/>
+<text x="24" y="32" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="13" fill="#1C8A57" >$ <tspan fill="#E0E6E3">./telemetry --user AHILL-0121</tspan></text>
+<text x="976" y="32" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="11" fill="#1C8A57" text-anchor="end"><tspan class="cur" fill="#3DD68F">●</tspan> synced 2026-09-27</text>
+<line x1="24" y1="46" x2="976" y2="46" stroke="#1E2925"/>
+<g class="n" style="animation-delay:0.00s"><text x="24" y="96" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="34" fill="#3DD68F" font-weight="700">30</text><text x="24" y="118" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="11" fill="#1C8A57" letter-spacing="2">REPOS</text></g>
+<g class="n" style="animation-delay:0.15s"><text x="254" y="96" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="34" fill="#3DD68F" font-weight="700">14</text><text x="254" y="118" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="11" fill="#1C8A57" letter-spacing="2">SHIPPED LIVE</text></g>
+<g class="n" style="animation-delay:0.30s"><text x="24" y="174" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="34" fill="#3DD68F" font-weight="700">4</text><text x="24" y="196" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="11" fill="#1C8A57" letter-spacing="2">FOLLOWERS</text></g>
+<g class="n" style="animation-delay:0.45s"><text x="254" y="174" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="34" fill="#3DD68F" font-weight="700">1,354</text><text x="254" y="196" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="11" fill="#1C8A57" letter-spacing="2">DAYS ONLINE</text></g>
+<text x="24" y="230" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#8FA39A" >last push → <tspan fill="#3DD68F">The-Silicon-Gazette</tspan></text>
+<text x="520" y="76" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="11" fill="#1C8A57" letter-spacing="2">LANGUAGES BY REPO</text>
+<text x="520" y="109" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#E0E6E3" >typescript</text>
+<rect x="630" y="100" width="330" height="10" rx="2" fill="#1E2925"/>
+<rect class="bar" style="animation-delay:0.30s" x="630" y="100" width="330.0" height="10" rx="2" fill="#3DD68F" fill-opacity="1.00"/>
+<text x="976" y="109" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#8FA39A" text-anchor="end">13</text>
+<text x="520" y="132" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#E0E6E3" >javascript</text>
+<rect x="630" y="123" width="330" height="10" rx="2" fill="#1E2925"/>
+<rect class="bar" style="animation-delay:0.42s" x="630" y="123" width="177.7" height="10" rx="2" fill="#3DD68F" fill-opacity="0.88"/>
+<text x="976" y="132" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#8FA39A" text-anchor="end">7</text>
+<text x="520" y="155" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#E0E6E3" >python</text>
+<rect x="630" y="146" width="330" height="10" rx="2" fill="#1E2925"/>
+<rect class="bar" style="animation-delay:0.54s" x="630" y="146" width="126.9" height="10" rx="2" fill="#3DD68F" fill-opacity="0.76"/>
+<text x="976" y="155" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#8FA39A" text-anchor="end">5</text>
+<text x="520" y="178" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#E0E6E3" >jupyter notebook</text>
+<rect x="630" y="169" width="330" height="10" rx="2" fill="#1E2925"/>
+<rect class="bar" style="animation-delay:0.66s" x="630" y="169" width="50.8" height="10" rx="2" fill="#3DD68F" fill-opacity="0.64"/>
+<text x="976" y="178" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#8FA39A" text-anchor="end">2</text>
+</svg>

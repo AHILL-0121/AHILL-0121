@@ -19,6 +19,7 @@ jobs:
           outputs: |
             github-contribution-grid-snake.svg
             github-contribution-grid-snake-dark.svg?palette=github-dark
+            github-contribution-grid-snake-matrix.svg?color_snake=#3DD68F&color_dots=#0F1714,#0E3B25,#156B43,#1C8A57,#3DD68F&color_dot_border=#080C0B
             
       - name: Push to main branch
         run: |

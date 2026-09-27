@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="74" viewBox="0 0 380 74" role="img" aria-label="take the red pill">
+<style>.g{animation:g 2.6s ease-in-out infinite}@keyframes g{50%{opacity:.35}}.s{animation:s 3.2s ease-in-out infinite}@keyframes s{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><linearGradient id="pill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF9592"/><stop offset=".55" stop-color="#E5484D"/><stop offset="1" stop-color="#080C0B" stop-opacity=".6"/></linearGradient><filter id="f" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter></defs>
+<rect x=".5" y=".5" width="379" height="73" rx="8" fill="#080C0B" stroke="#1E2925"/>
+<rect class="g" x="22" y="25" width="54" height="24" rx="12" fill="#E5484D" filter="url(#f)"/>
+<rect x="22" y="25" width="54" height="24" rx="12" fill="url(#pill)"/>
+<rect x="30" y="29" width="22" height="5" rx="2.5" fill="#fff" fill-opacity=".45"/>
+<text x="96" y="34" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15" fill="#E0E6E3" font-weight="700">take the red pill</text>
+<text x="96" y="54" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" fill="#8FA39A" >see how deep the repo goes</text>
+<g class="s"><text x="358" y="44" font-family="'IBM Plex Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="18" fill="#E5484D" text-anchor="end">→</text></g>
+</svg>

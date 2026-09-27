@@ -23,7 +23,7 @@ FACTS = [("education", "B.Tech IT + Honours AI & DS", "SNS College of Technology
          ("cgpa", "8.94", "honours track"),
          ("certified", "10+ credentials", "AWS · Cisco · IBM · NPTEL"),
          ("based", "Coimbatore, India", "IST · UTC+05:30")]
-TRAJECTORY = [("now", "Shipping 12 live products", "AI systems · SaaS · dev tools"),
+TRAJECTORY = [("now", "12 products shipped", "AI systems · SaaS · dev tools"),
               ("2025", "Data Science Intern", "NXTLOGIC Software Solutions"),
               ("2024", "Cybersecurity Intern", "Ether Infotech"),
               ("2023", "Ethical Hacking Intern", "Virtual Coincent"),
@@ -31,25 +31,25 @@ TRAJECTORY = [("now", "Shipping 12 live products", "AI systems · SaaS · dev to
 
 FEATURED = [
     # slug, name, tag, description, stack, metric, host
-    ("procureai", "ProcureAI", "AI system", "Agents pull invoices from email, OCR them and run a three-way purchase-order match.",
-     ["Next.js", "FastAPI", "multi-agent"], "~250ms dashboard", "sa-procure-ai.vercel.app"),
-    ("kipd", "Kipd", "SaaS", "Multi-tenant hotel & restaurant platform with an SSE kitchen display and an Android shell.",
-     ["Next.js 14", "Neon", "Capacitor"], "native UPI flow", "sa-kipd.vercel.app"),
-    ("datapulse", "DataPulse", "ML pipeline", "Drop in a dataset; get cleaning, EDA, anomaly detection, a fitted model and a report.",
-     ["FastAPI", "scikit-learn", "Next.js"], "auto model selection", "sa-datapulse.vercel.app"),
-    ("categorycrash", "CategoryCrash", "Real-time", "Multiplayer word game where an LLM referees every answer while the round is live.",
+    ("fam-tree", "Fam Tree Builder", "Product", "Build a family tree in the browser and see exactly how any two people are related, in English and Tamil.",
+     ["Next.js", "TypeScript", "drag & drop"], "bilingual · EN / TA", "sa-fam-tree-builder.vercel.app"),
+    ("silicon-gazette", "The Silicon Gazette", "AI newsroom", "A daily tech newspaper written by AI from live web search, set as a vintage broadsheet.",
+     ["Groq", "Tavily", "Next.js"], "one edition per day", "sa-the-silicon-gazette.vercel.app"),
+    ("wordbomb", "Word Bomb", "Real-time", "Race the clock to find English words that contain a random syllable. Last player standing wins.",
+     ["Next.js 14", "PartyKit"], "live multiplayer", "sa-word-bomb.vercel.app"),
+    ("categorycrash", "CategoryCrash", "Real-time · AI", "2–6 players race to type answers that satisfy two categories at once, judged live by an LLM.",
      ["PartyKit", "Groq", "Next.js"], "<200ms verdicts", "sa-category-crash.vercel.app"),
 ]
 INDEX = [
     # slug, name, tag, description
-    ("silicon-gazette", "Silicon Gazette", "AI", "Daily tech broadsheet written from live web search"),
-    ("gitverdict", "GitVerdict", "AI", "Paste a repo URL, get a reasoned code-quality verdict"),
-    ("devlens", "DevLens", "Dev tool", "A developer fingerprint from any GitHub profile"),
-    ("leet-api", "leet-api", "API", "LeetCode stats + the heatmap SVG, in Go / Fiber"),
-    ("exercism-api", "exercism-api", "API", "Exercism tracks and exercises as a REST API"),
-    ("wordbomb", "Word Bomb", "Real-time", "Multiplayer word-bomb game over WebSockets"),
-    ("fam-tree", "Fam Tree", "Product", "Drag-and-connect family tree builder"),
-    ("weather", "Weather", "Product", "Global weather lookup, nothing extra on screen"),
+    ("procureai", "ProcureAI", "AI agents", "Invoices from email → OCR + LLM → three-way PO match"),
+    ("datapulse", "DataPulse", "ML", "Upload raw data, get cleaning, EDA, models and a report"),
+    ("weather", "Weather Dashboard", "Product", "Global weather lookup, nothing extra on screen"),
+    ("kipd", "Kipd", "SaaS", "Multi-tenant platform for hotels and restaurants"),
+    ("devlens", "DevLens", "AI", "GitHub activity → ATS resume bullets and role matching"),
+    ("gitverdict", "GitVerdict", "AI", "Scores your commit history and roasts the worst ones"),
+    ("leetcode-api", "LeetCode API", "API", "Serverless LeetCode stats and the heatmap SVG"),
+    ("exercism-api", "Exercism API", "API", "Embeddable Exercism heatmap and profile cards"),
 ]
 
 STACK = [
@@ -90,24 +90,24 @@ def icons():
 # ----------------------------------------------------------------------------- hero
 def hero():
     H = 380
-    PX, PY, PW, PH = 540, 24, 276, H - 48  # rain panel
+    PX = 540  # meta row ends before here
     css = []
     b = tile(W, H, uid="h")
 
-    # rain panel
-    rcss, rels = rain(PX, PY, PW, PH, step=17, size=13, rng=rng, density=1.0, speed=(3.5, 7.5))
-    _, back = rain(PX + 8, PY, PW, PH, step=17, size=10, rng=rng, density=0.9, speed=(6, 11), head=False)
-    rels = ['<g opacity=".45">'] + back + ["</g>"] + rels
+    # rain across the whole card; a left-to-right veil keeps the type readable
+    rcss, rels = rain(0, 0, W, H, step=17, size=13, rng=rng, density=0.9, speed=(3.5, 8))
+    _, back = rain(8, 0, W, H, step=17, size=10, rng=rng, density=0.75, speed=(6, 12), head=False)
     css.append(rcss)
-    b += [f'<defs><clipPath id="rp"><rect x="{PX}" y="{PY}" width="{PW}" height="{PH}" rx="10"/></clipPath>'
-          f'<linearGradient id="rf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{C["panel"]}"/><stop offset=".22" stop-color="{C["panel"]}" stop-opacity="0"/>'
-          f'<stop offset=".78" stop-color="{C["panel"]}" stop-opacity="0"/><stop offset="1" stop-color="{C["panel"]}"/></linearGradient></defs>',
-          f'<rect x="{PX}" y="{PY}" width="{PW}" height="{PH}" rx="10" fill="{C["panel"]}" stroke="{C["line"]}"/>',
-          f'<g clip-path="url(#rp)"><g opacity=".9">', *rels, "</g>",
-          f'<rect x="{PX}" y="{PY}" width="{PW}" height="{PH}" fill="url(#rf)"/></g>',
-          micro(PX + 16, PY + 24, "signal", C["deep"]),
-          t(PX + PW - 16, PY + 24, "● LIVE", 10.5, C["green"], 500, "end", 1.6, cls="pulse"),
-          micro(PX + 16, PY + PH - 16, "11.01°N  76.96°E", C["deep"]),
+    b += [f'<defs><clipPath id="hc"><rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="14"/></clipPath>'
+          f'<linearGradient id="veil" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{C["bg0"]}" stop-opacity=".96"/>'
+          f'<stop offset=".48" stop-color="{C["bg0"]}" stop-opacity=".88"/><stop offset=".7" stop-color="{C["bg0"]}" stop-opacity=".25"/>'
+          f'<stop offset="1" stop-color="{C["bg0"]}" stop-opacity="0"/></linearGradient>'
+          f'<linearGradient id="vfade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{C["bg0"]}" stop-opacity=".85"/><stop offset=".2" stop-color="{C["bg0"]}" stop-opacity="0"/>'
+          f'<stop offset=".8" stop-color="{C["bg0"]}" stop-opacity="0"/><stop offset="1" stop-color="{C["bg0"]}" stop-opacity=".85"/></linearGradient></defs>',
+          '<g clip-path="url(#hc)"><g opacity=".4">', *back, '</g><g opacity=".95">', *rels, "</g>",
+          f'<rect width="{W}" height="{H}" fill="url(#veil)"/><rect width="{W}" height="{H}" fill="url(#vfade)"/></g>',
+          t(W - 40, 56, "● LIVE", 10.5, C["green"], 500, "end", 1.6, cls="pulse"),
+          micro(W - 40, H - 32, "11.01°N  76.96°E", C["deep"], "end"),
           ]
     css.append(".pulse{animation:pulse 2.4s ease-in-out infinite}@keyframes pulse{50%{opacity:.35}}")
 
@@ -151,7 +151,7 @@ def hero():
 
     # meta row
     b.append(f'<line x1="40" y1="298" x2="{PX - 32}" y2="298" stroke="{C["line2"]}"/>')
-    meta = [("based", "Coimbatore, IN", None), ("shipped", "12 live products", None), ("status", "open to work", C["green"])]
+    meta = [("based", "Coimbatore, IN", None), ("shipped", "12 products", None), ("status", "open to work", C["green"])]
     for k, (lab, val, col) in enumerate(meta):
         x = 40 + k * 160
         b.append(micro(x, 326, lab))
@@ -212,7 +212,9 @@ def about():
     b.append(micro(28, 42, "trajectory"))
     top, step = 84, 60
     b.append(f'<line x1="33.5" y1="{top}" x2="33.5" y2="{top + step * (len(TRAJECTORY) - 1)}" stroke="{C["line2"]}"/>')
-    b.append(f'<rect class="flow" x="33" y="{top}" width="1.5" height="40" fill="{C["green"]}"/>')
+    span = step * (len(TRAJECTORY) - 1)
+    b.append(f'<defs><linearGradient id="tr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{C["bright"]}"/><stop offset="1" stop-color="{C["green"]}" stop-opacity="0"/></linearGradient></defs>')
+    b.append(f'<rect class="flow" x="32.5" y="{top + span - 44}" width="2" height="44" rx="1" fill="url(#tr)"/>')
     for k, (yr, role, org) in enumerate(TRAJECTORY):
         y = top + k * step
         if k == 0:
@@ -223,7 +225,7 @@ def about():
         b += [micro(52, y - 6, yr, C["green"] if k == 0 else C["deep"]),
               t(52, y + 12, role, 13.5, C["text"], 500), t(52, y + 29, org, 11.5, C["muted"])]
     css = (".ping{transform-box:fill-box;transform-origin:center;animation:ping 2.4s ease-out infinite}@keyframes ping{0%{transform:scale(.6);opacity:1}100%{transform:scale(1.8);opacity:0}}"
-           f".flow{{animation:flow 4s ease-in-out infinite}}@keyframes flow{{0%{{transform:translateY(0);opacity:0}}20%{{opacity:1}}80%{{opacity:1}}100%{{transform:translateY({step * (len(TRAJECTORY) - 1) - 40}px);opacity:0}}}}")
+           f".flow{{animation:flow 3.6s cubic-bezier(.45,0,.55,1) infinite}}@keyframes flow{{0%{{transform:translateY(0);opacity:0}}15%{{opacity:1}}85%{{opacity:1}}100%{{transform:translateY(-{span - 44}px);opacity:0}}}}")
     save("about-trajectory.svg", svg(w2, H, b, "Trajectory: " + "; ".join(f"{a} {r_}, {o}" for a, r_, o in TRAJECTORY), css, (400, 500)))
     return w1, w2
 
@@ -247,7 +249,7 @@ def feature(i, slug, name, tag, desc, stack, metric, host):
         x += w + 6
     b += [f'<line x1="26" y1="{H - 50}" x2="{cw - 26}" y2="{H - 50}" stroke="{C["line"]}"/>',
           t(26, H - 24, f"▸ {metric}", 12, C["green"], 500),
-          t(cw - 26, H - 24, f"{host} ↗", 11.5, C["muted"], anchor="end"),
+          t(cw - 26, H - 24, "open ↗", 11.5, C["muted"], anchor="end"),
           f'<rect class="trace" x="0.5" y="0.5" width="{cw - 1}" height="{H - 1}" rx="14" fill="none" stroke="{C["green"]}" stroke-width="1" stroke-opacity=".45"/>']
     css = (".pulse{animation:pulse 2.4s ease-in-out infinite}@keyframes pulse{50%{opacity:.3}}"
            f".trace{{stroke-dasharray:70 {per - 70};animation:trace 10s linear infinite;animation-delay:-{i * 2.3:.1f}s}}@keyframes trace{{to{{stroke-dashoffset:-{per}}}}}")
@@ -326,32 +328,44 @@ def roadmap():
 
 
 # ----------------------------------------------------------------------------- footer
+FOOTER_LINES = [
+    ("never send a human to do a machine's job.", "agent smith, on code review"),
+    ("there is no spoon. only tokens.", "the oracle, prompt engineer"),
+    ("i know kung fu.  i know langchain.", "neo, after the upload"),
+    ("you take the red pill; i ship to prod.", "morpheus, on friday deploys"),
+]
+
+
 def footer():
-    H = 200
-    q = "code is poetry written in logic."
-    fs = 20
-    w = tw(q, fs)
-    x = (W - w) / 2
-    rcss, rels = rain(0, 0, W, 90, step=22, size=12, rng=random.Random(3), speed=(6, 12), density=0.7, head=False)
+    H = 210
+    fs, slot = 19, 6.0
+    cycle = slot * len(FOOTER_LINES)
+    rcss, rels = rain(0, 0, W, 100, step=22, size=12, rng=random.Random(3), speed=(6, 12), density=0.7, head=False)
     b = tile(W, H, uid="z")
     b += [f'<defs><clipPath id="fc"><rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="14"/></clipPath>'
-          f'<linearGradient id="ff" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{C["bg1"]}" stop-opacity="0"/><stop offset="1" stop-color="{C["bg0"]}"/></linearGradient></defs>',
-          f'<g clip-path="url(#fc)" opacity=".5">', *rels, "</g>",
+          f'<linearGradient id="ff" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{C["bg1"]}" stop-opacity="0"/><stop offset=".75" stop-color="{C["bg0"]}"/></linearGradient></defs>',
+          f'<g clip-path="url(#fc)" opacity=".45">', *rels, "</g>",
           f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="14" fill="url(#ff)"/>',
-          micro(W / 2, 64, "// fortune", C["deep"], "middle"),
-          f'<g class="fx late">{t(W / 2, 136, "— ahill s", 12.5, C["muted"], anchor="middle")}</g>',
-          micro(W / 2, 176, "end of transmission", C["green"], "middle")]
-    tc, tels = typewriter("q", x, 104, q, fs, C["text"], 12, 0.5, 11.8, cps=0.08, weight=500)
-    b[-3:-3] = tels
-    css = (rcss + tc + ".late{opacity:0;animation:late 12s infinite}@keyframes late{0%,26%{opacity:0}32%,98%{opacity:1}100%{opacity:0}}")
-    save("footer.svg", svg(W, H, b, f"{q} (ahill s). End of transmission.", css, (400, 500), kata=True))
-
+          micro(W / 2, 62, "// transmission from zion", C["deep"], "middle")]
+    css = [rcss]
+    for j, (line, who) in enumerate(FOOTER_LINES):
+        x = (W - tw(line, fs)) / 2
+        a0 = j * slot
+        c, els = typewriter(f"f{j}", x, 108, line, fs, C["text"], cycle, a0 + 0.3, a0 + slot - 0.1, cps=0.055, weight=500, still=(j == 0))
+        css.append(c)
+        b += els
+        te = a0 + 0.3 + len(line) * 0.055
+        css.append(windows(f"fw{j}", cycle, [(te + 0.2, a0 + slot - 0.1)]))
+        b.append(f'<g class="{"fx" if j == 0 else ""}" opacity="0" style="animation:fw{j} {cycle}s step-end infinite">{t(W / 2, 142, "— " + who, 12.5, C["muted"], anchor="middle")}</g>')
+    b.append(micro(W / 2, 184, "end of transmission", C["green"], "middle"))
+    alt = " / ".join(f"{l} ({w})" for l, w in FOOTER_LINES) + ". End of transmission."
+    save("footer.svg", svg(W, H, b, alt, "".join(css), (400, 500), kata=True))
 
 if __name__ == "__main__":
     hero()
     segments("nav/nav", NAV, "↓")
     segments("nav/contact", CONTACT, "↗", sub_style=True)
-    for idx, title, meta in [("01", "About", "whoami"), ("02", "Work", "12 shipped · all live"), ("03", "Stack", "tools i reach for"),
+    for idx, title, meta in [("01", "About", "whoami"), ("02", "Work", "12 shipped"), ("03", "Stack", "tools i reach for"),
                              ("04", "Signal", "synced daily"), ("05", "Roadmap", "what's next"), ("06", "Contact", "open to work")]:
         section(idx, title, meta)
     w1, w2 = about()

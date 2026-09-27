@@ -14,46 +14,22 @@
 
 <p><img src="./assets/about-readme.svg" width="61.9%" alt="I build AI products and the full-stack systems around them. My first two internships were in cybersecurity, so I learned how systems break before I started shipping my own. B.Tech IT with Honours in AI and Data Science, SNS College of Technology, CGPA 8.94. 10+ certifications. Based in Coimbatore, India." /> <img src="./assets/about-trajectory.svg" width="37.1%" alt="Trajectory: now shipping 12 live products; 2025 Data Science Intern at NXTLOGIC; 2024 Cybersecurity Intern at Ether Infotech; 2023 Ethical Hacking Intern at Virtual Coincent; 2022 B.Tech IT begins." /></p>
 
-<details>
-<summary><sub>&nbsp;<code>where</code>&nbsp; open the map</sub></summary>
-
-```geojson
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": { "name": "AHILL S", "description": "Coimbatore, Tamil Nadu. Building from here.", "marker-color": "#3DD68F", "marker-symbol": "star" },
-      "geometry": { "type": "Point", "coordinates": [76.9558, 11.0168] }
-    }
-  ]
-}
-```
-
-</details>
-
 <a name="work"></a>
 <img src="./assets/section-work.svg" width="100%" alt="02 Work" />
 
-<p><a href="https://sa-procure-ai.vercel.app/"><img src="./assets/work/procureai.svg" width="49.5%" alt="ProcureAI: agents pull invoices from email, OCR them and run a three-way PO match." /></a> <a href="https://sa-kipd.vercel.app/"><img src="./assets/work/kipd.svg" width="49.5%" alt="Kipd: multi-tenant hotel and restaurant platform." /></a>
-<a href="https://sa-datapulse.vercel.app/"><img src="./assets/work/datapulse.svg" width="49.5%" alt="DataPulse: automated data analysis and modelling." /></a> <a href="https://sa-category-crash.vercel.app/"><img src="./assets/work/categorycrash.svg" width="49.5%" alt="CategoryCrash: real-time multiplayer word game refereed by an LLM." /></a></p>
+<p><a href="https://sa-fam-tree-builder.vercel.app/"><img src="./assets/work/fam-tree.svg" width="49.5%" alt="Fam Tree Builder: build a family tree and see how any two people are related, in English and Tamil." /></a> <a href="https://sa-the-silicon-gazette.vercel.app/"><img src="./assets/work/silicon-gazette.svg" width="49.5%" alt="The Silicon Gazette: an AI-written daily tech newspaper in a vintage broadsheet." /></a>
+<a href="https://sa-word-bomb.vercel.app/"><img src="./assets/work/wordbomb.svg" width="49.5%" alt="Word Bomb: real-time multiplayer word game." /></a> <a href="https://sa-category-crash.vercel.app/"><img src="./assets/work/categorycrash.svg" width="49.5%" alt="CategoryCrash: multiplayer word game judged live by an LLM." /></a></p>
 
-<p><a href="https://sa-silicon-gazette.vercel.app/"><img src="./assets/work/row-silicon-gazette.svg" width="100%" alt="Silicon Gazette" /></a>
-<a href="https://sa-git-verdict.vercel.app/"><img src="./assets/work/row-gitverdict.svg" width="100%" alt="GitVerdict" /></a>
+<p><a href="https://sa-procure-ai.vercel.app/"><img src="./assets/work/row-procureai.svg" width="100%" alt="ProcureAI" /></a>
+<a href="https://github.com/AHILL-0121/DataPulse"><img src="./assets/work/row-datapulse.svg" width="100%" alt="DataPulse" /></a>
+<a href="https://sa-weather-dashboard.vercel.app/"><img src="./assets/work/row-weather.svg" width="100%" alt="Weather Dashboard" /></a>
+<a href="https://sa-kipd.vercel.app/"><img src="./assets/work/row-kipd.svg" width="100%" alt="Kipd" /></a>
 <a href="https://sa-dev-lens.vercel.app/"><img src="./assets/work/row-devlens.svg" width="100%" alt="DevLens" /></a>
-<a href="https://leetapi.vercel.app/"><img src="./assets/work/row-leet-api.svg" width="100%" alt="leet-api" /></a>
-<a href="https://sa-exercismapi.vercel.app/"><img src="./assets/work/row-exercism-api.svg" width="100%" alt="exercism-api" /></a>
-<a href="https://sa-word-bomb.vercel.app/"><img src="./assets/work/row-wordbomb.svg" width="100%" alt="Word Bomb" /></a>
-<a href="https://sa-fam-tree-builder.vercel.app/"><img src="./assets/work/row-fam-tree.svg" width="100%" alt="Fam Tree" /></a>
-<a href="https://sa-weather-dashboard.vercel.app/"><img src="./assets/work/row-weather.svg" width="100%" alt="Weather Dashboard" /></a></p>
+<a href="https://sa-git-verdict.vercel.app/"><img src="./assets/work/row-gitverdict.svg" width="100%" alt="GitVerdict" /></a>
+<a href="https://leetapi.vercel.app/"><img src="./assets/work/row-leetcode-api.svg" width="100%" alt="LeetCode API" /></a>
+<a href="https://sa-exercismapi.vercel.app/"><img src="./assets/work/row-exercism-api.svg" width="100%" alt="Exercism API" /></a></p>
 
-<details>
-<summary><sub>&nbsp;<code>src</code>&nbsp; source code for every project</sub></summary>
-<br/>
-
-[procureai](https://github.com/AHILL-0121/ProcureAI) · [kipd](https://github.com/AHILL-0121/KIPD) · [datapulse](https://github.com/AHILL-0121/DataPulse) · [categorycrash](https://github.com/AHILL-0121/CategoryCrash) · [silicon-gazette](https://github.com/AHILL-0121/The-Silicon-Gazette) · [gitverdict](https://github.com/AHILL-0121/gitverdict) · [devlens](https://github.com/AHILL-0121/devlens) · [leet-api](https://github.com/AHILL-0121/leet-api) · [exercism-api](https://github.com/AHILL-0121/exercism-api) · [wordbomb](https://github.com/AHILL-0121/wordbomb) · [fam-tree](https://github.com/AHILL-0121/fam-tree) · [weather-dashboard](https://github.com/AHILL-0121/WEATHER-DASHBOARD)
-
-</details>
+<p align="center"><sub><b>source</b> &nbsp;<a href="https://github.com/AHILL-0121/Family-Tree-Builder">fam tree builder</a> · <a href="https://github.com/AHILL-0121/The-Silicon-Gazette">silicon gazette</a> · <a href="https://github.com/AHILL-0121/WORD-BOMB">word bomb</a> · <a href="https://github.com/AHILL-0121/CategoryCrash">categorycrash</a> · <a href="https://github.com/AHILL-0121/ProcureAI">procureai</a> · <a href="https://github.com/AHILL-0121/DataPulse">datapulse</a> · <a href="https://github.com/AHILL-0121/WEATHER-DASHBOARD">weather</a> · <a href="https://github.com/AHILL-0121/KIPD">kipd</a> · <a href="https://github.com/AHILL-0121/DevLens">devlens</a> · <a href="https://github.com/AHILL-0121/GitVerdict">gitverdict</a> · <a href="https://github.com/AHILL-0121/LEETAPI">leetcode api</a> · <a href="https://github.com/AHILL-0121/Exercism-API">exercism api</a></sub></p>
 
 <a name="stack"></a>
 <img src="./assets/section-stack.svg" width="100%" alt="03 Stack" />
@@ -67,28 +43,18 @@
 
 <p><img src="./assets/signal-repos.svg" width="49.5%" alt="Repository telemetry" /> <img src="./assets/signal-langs.svg" width="49.5%" alt="Languages by repository" /></p>
 
-<details>
-<summary><sub>&nbsp;<code>more</code>&nbsp; trophies · leetcode · duolingo · snake</sub></summary>
-<br/>
-
 <img src="./assets/trophy.svg" width="100%" alt="GitHub trophies" />
 
-<a href="https://leetcode.com/u/ahillselvaraaj/"><img src="https://leetapi.vercel.app/api/heatmap.svg?theme=dark" width="100%" alt="LeetCode heatmap, rendered by my own leet-api" /></a>
+<a href="https://leetcode.com/u/ahillselvaraaj/"><img src="https://leetapi.vercel.app/api/heatmap.svg?theme=dark" width="100%" alt="LeetCode heatmap, rendered by my own LeetCode API" /></a>
 
-<a href="https://www.duolingo.com/profile/the1anonymous."><img src="https://duo-widget.vercel.app/api/duo?username=the1anonymous.&theme=deepsea&character=all" alt="Duolingo" /></a>
+<p align="center"><a href="https://www.duolingo.com/profile/the1anonymous."><img src="https://duo-widget.vercel.app/api/duo?username=the1anonymous.&theme=deepsea&character=all" width="60%" alt="Duolingo" /></a></p>
 
 <img src="./github-contribution-grid-snake-matrix.svg" width="100%" alt="Contribution graph being eaten by a snake" />
-
-</details>
 
 <a name="roadmap"></a>
 <img src="./assets/section-roadmap.svg" width="100%" alt="05 Roadmap" />
 
 <img src="./assets/roadmap.svg" width="100%" alt="Roadmap: done, in progress and next." />
-
-<details>
-<summary><sub>&nbsp;<code>graph</code>&nbsp; interactive mission map</sub></summary>
-<br/>
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'background':'#060A08','primaryColor':'#0B120F','primaryTextColor':'#E6EEE9','primaryBorderColor':'#3DD68F','lineColor':'#2F4238','fontFamily':'monospace'}}}%%
@@ -109,13 +75,11 @@ graph LR
     class E,F,G,H out
 ```
 
-</details>
-
 <a name="contact"></a>
 <img src="./assets/section-contact.svg" width="100%" alt="06 Contact" />
 
 <p><a href="mailto:sa.education5211@gmail.com"><img src="./assets/nav/contact-email.svg" width="25%" alt="Email" /></a><a href="https://linkedin.com/in/ahill-selvaraj"><img src="./assets/nav/contact-linkedin.svg" width="25%" alt="LinkedIn" /></a><a href="https://sa-portfolio-psi.vercel.app/"><img src="./assets/nav/contact-portfolio.svg" width="25%" alt="Portfolio" /></a><a href="https://github.com/AHILL-0121/AHILL-0121/issues/new?title=signal%3A+hello+from+%5Byour+name%5D&body=Where+did+you+find+me%3F%0A%0AWhat+are+you+building%3F%0A"><img src="./assets/nav/contact-guestbook.svg" width="25%" alt="Guestbook: leave a message as a GitHub issue" /></a></p>
 
-<img src="./assets/footer.svg" width="100%" alt="code is poetry written in logic. (ahill s)" />
+<img src="./assets/footer.svg" width="100%" alt="Transmission from Zion: Matrix quotes, rewired for code and AI. End of transmission." />
 
 <p align="center"><img src="https://komarev.com/ghpvc/?username=AHILL-0121&color=0B120F&style=flat-square&label=visitors&labelColor=060A08" alt="visitors" /></p>

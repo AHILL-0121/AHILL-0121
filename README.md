@@ -12,7 +12,7 @@
 <a name="about"></a>
 <img src="./assets/section-about.svg" width="100%" alt="01 About" />
 
-<p><img src="./assets/about-readme.svg" width="61.9%" alt="I build AI products and the full-stack systems around them. My first two internships were in cybersecurity, so I learned how systems break before I started shipping my own. B.Tech IT with Honours in AI and Data Science, SNS College of Technology, CGPA 8.94. 10+ certifications. Based in Coimbatore, India." /> <img src="./assets/about-trajectory.svg" width="37.1%" alt="Trajectory: now shipping 12 live products; 2025 Data Science Intern at NXTLOGIC; 2024 Cybersecurity Intern at Ether Infotech; 2023 Ethical Hacking Intern at Virtual Coincent; 2022 B.Tech IT begins." /></p>
+<p><img src="./assets/about-readme.svg" width="61.9%" alt="I build AI products and the full-stack systems around them. My first two internships were in cybersecurity, so I learned how systems break before I started shipping my own. B.Tech IT with Honours in AI and Data Science, SNS College of Technology, CGPA 8.94. 10+ certifications. Based in Coimbatore, India." /> <img src="./assets/about-trajectory.svg" width="37.1%" alt="Trajectory: now shipping 12 live products; 2025 Data Science Intern at NXTLOGIC; 2024 Cybersecurity Intern at Ether Infotech; 2022 B.Tech IT begins." /></p>
 
 <a name="work"></a>
 <img src="./assets/section-work.svg" width="100%" alt="02 Work" />

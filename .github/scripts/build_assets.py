@@ -26,7 +26,6 @@ FACTS = [("education", "B.Tech IT + Honours AI & DS", "SNS College of Technology
 TRAJECTORY = [("now", "12 products shipped", "AI systems · SaaS · dev tools"),
               ("2025", "Data Science Intern", "NXTLOGIC Software Solutions"),
               ("2024", "Cybersecurity Intern", "Ether Infotech"),
-              ("2023", "Ethical Hacking Intern", "Virtual Coincent"),
               ("2022", "B.Tech IT begins", "SNS College of Technology")]
 
 FEATURED = [
@@ -210,7 +209,8 @@ def about():
     # trajectory
     b = tile(w2, H, uid="b")
     b.append(micro(28, 42, "trajectory"))
-    top, step = 84, 60
+    top = 84
+    step = 240 // (len(TRAJECTORY) - 1)
     b.append(f'<line x1="33.5" y1="{top}" x2="33.5" y2="{top + step * (len(TRAJECTORY) - 1)}" stroke="{C["line2"]}"/>')
     span = step * (len(TRAJECTORY) - 1)
     b.append(f'<defs><linearGradient id="tr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{C["bright"]}"/><stop offset="1" stop-color="{C["green"]}" stop-opacity="0"/></linearGradient></defs>')

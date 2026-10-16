@@ -5,7 +5,7 @@
 <path d="M14.5,0.5 H825.5 Q839.5,0.5 839.5,14.5 V303.5 Q839.5,317.5 825.5,317.5 H14.5 Q0.5,317.5 0.5,303.5 V14.5 Q0.5,0.5 14.5,0.5 Z" fill="url(#cg)" stroke="#16211C"/>
 <rect x="126" y="0.5" width="588" height="1" fill="url(#ce)"/>
 <text x="28" y="42" font-size="10.5" fill="#6B8075" font-weight="500" letter-spacing="1.6">CONTRIBUTIONS · LAST 12 MONTHS</text>
-<text x="812" y="42" font-size="10.5" fill="#6B8075" font-weight="500" text-anchor="end" letter-spacing="1.6">SYNCED 15 OCT 2026</text>
+<text x="812" y="42" font-size="10.5" fill="#6B8075" font-weight="500" text-anchor="end" letter-spacing="1.6">SYNCED 16 OCT 2026</text>
 <line x1="28" y1="60" x2="812" y2="60" stroke="#16211C"/>
 <g class="fx up" style="animation-delay:0.0s"><text x="28" y="110" font-size="32" fill="#E6EEE9" font-weight="700">739</text><text x="93.6" y="110" font-size="12" fill="#6B8075"></text><text x="28" y="134" font-size="10.5" fill="#6B8075" font-weight="500" letter-spacing="1.6">CONTRIBUTIONS</text></g>
 <g class="fx up" style="animation-delay:0.1s"><text x="228" y="110" font-size="32" fill="#3DD68F" font-weight="700">30</text><text x="274.4" y="110" font-size="12" fill="#6B8075">days</text><text x="228" y="134" font-size="10.5" fill="#6B8075" font-weight="500" letter-spacing="1.6">CURRENT STREAK</text></g>
@@ -395,6 +395,7 @@
 <rect class="fx cl" style="animation-delay:0.936s" x="801" y="216" width="11" height="11" rx="2.5" fill="#0E3B25"/>
 <rect class="fx cl" style="animation-delay:0.936s" x="801" y="230" width="11" height="11" rx="2.5" fill="#0E3B25"/>
 <rect class="fx cl" style="animation-delay:0.936s" x="801" y="244" width="11" height="11" rx="2.5" fill="#0E3B25"/>
+<rect class="fx cl" style="animation-delay:0.936s" x="801" y="258" width="11" height="11" rx="2.5" fill="#0E1612"/>
 <defs><linearGradient id="beam" x1="0" x2="1"><stop offset="0" stop-color="#B6F5D2" stop-opacity="0"/><stop offset="1" stop-color="#B6F5D2" stop-opacity=".35"/></linearGradient><clipPath id="gc"><rect x="73" y="188" width="742" height="98"/></clipPath></defs>
 <g clip-path="url(#gc)"><rect class="beam" x="33" y="188" width="40" height="98" fill="url(#beam)"/></g>
 <text x="28" y="296" font-size="10.5" fill="#6B8075" font-weight="500" letter-spacing="1.6">BEST DAY · 34 ON 07 OCT</text>
